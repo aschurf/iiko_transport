@@ -19,7 +19,6 @@ func main() {
 	}
 
 	var d []dishes.Dish
-
 	for _, v := range menu.ItemCategories {
 		for _, dish := range v.Items {
 			d = append(d, dish)
