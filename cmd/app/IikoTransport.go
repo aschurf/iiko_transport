@@ -1,7 +1,7 @@
 package iiko_transport
 
 import (
-	iikomodel "iikoapi/internal/models"
+	iikomodel "github.com/aschurf/iiko_transport/internal/models"
 )
 
 // NewIikoTransport

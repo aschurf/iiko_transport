@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	iiko_transport "iikoapi/cmd/app"
-	dishes "iikoapi/internal/dishes"
+	iiko_transport "github.com/aschurf/iiko_transport/cmd/app"
+	dishes "github.com/aschurf/iiko_transport/internal/dishes"
 )
 
 func main() {
