@@ -1,4 +1,4 @@
-module iikoapi
+module github.com/aschurf/iiko_transport
 
 go 1.19
 
