@@ -3,7 +3,7 @@ package iikotransport
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/aschurf/iiko_transport/internal/dishes"
+	"github.com/aschurf/iiko_transport/external/dishes"
 	"log"
 )
 

@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	iiko_transport "github.com/aschurf/iiko_transport/cmd/app"
-	dishes "github.com/aschurf/iiko_transport/internal/dishes"
+	dishes "github.com/aschurf/iiko_transport/external/dishes"
 )
 
 func main() {
