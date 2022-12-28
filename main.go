@@ -26,7 +26,7 @@ func main() {
 	}
 
 	for _, m := range d {
-		fmt.Println(m.Name)
+		fmt.Println(m.Count)
 		fmt.Println(m.ItemSizes[0].Prices[0].Price)
 	}
 }
