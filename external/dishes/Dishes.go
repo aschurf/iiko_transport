@@ -18,9 +18,9 @@ type Categories struct {
 }
 
 type Dish struct {
-	Sku            string `json:"sku"`
-	Name           string `json:"name"`
-	Count          int
+	Sku            string        `json:"sku"`
+	Name           string        `json:"name"`
+	Count          int           `json:"count"`
 	Description    string        `json:"description"`
 	AllergenGroups []interface{} `json:"allergenGroups"`
 	Tags           []interface{} `json:"tags"`
