@@ -34,10 +34,10 @@ type Dish struct {
 		ItemModifierGroups       []interface{} `json:"itemModifierGroups"`
 		SizeId                   interface{}   `json:"sizeId"`
 		NutritionPerHundredGrams struct {
-			Fats          int      `json:"fats"`
-			Proteins      int      `json:"proteins"`
-			Carbs         int      `json:"carbs"`
-			Energy        int      `json:"energy"`
+			Fats          float32  `json:"fats"`
+			Proteins      float32  `json:"proteins"`
+			Carbs         float32  `json:"carbs"`
+			Energy        float32  `json:"energy"`
 			Organizations []string `json:"organizations"`
 		} `json:"nutritionPerHundredGrams"`
 		Prices []struct {
