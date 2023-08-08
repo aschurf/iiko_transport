@@ -37,7 +37,7 @@ type Dish struct {
 			Fats          float32  `json:"fats"`
 			Proteins      float32  `json:"proteins"`
 			Carbs         float32  `json:"carbs"`
-			Energy        float32  `json:"energy"`
+			Energy        float64  `json:"energy"`
 			Organizations []string `json:"organizations"`
 		} `json:"nutritionPerHundredGrams"`
 		Prices []struct {
